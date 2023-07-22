@@ -33,13 +33,7 @@
           </template>
         </sidenav-collapse>
       </li>
-      <li class="nav-item">
-        <sidenav-collapse nav-text="RTL" :to="{ name: 'Rtl' }">
-          <template #icon>
-            <icon name="rtl-page" />
-          </template>
-        </sidenav-collapse>
-      </li>
+    
       <li class="mt-3 nav-item">
         <h6
           class="text-xs ps-4 text-uppercase font-weight-bolder opacity-6"
@@ -69,21 +63,7 @@
       </li>
     </ul>
   </div>
-  <div class="pt-3 mx-3 mt-3 sidenav-footer">
-    <sidenav-card
-      :class="cardBg"
-      text-primary="Need Help?"
-      text-secondary="Please check our docs"
-      href="https://www.creative-tim.com/learning-lab/vue/overview/soft-ui-dashboard/"
-      link-text="Documentation"
-      icon-class="ni ni-diamond"
-    />
-    <a
-      class="btn bg-gradient-success mt-4 w-100"
-      href="https://www.creative-tim.com/product/vue-soft-ui-dashboard-pro?ref=vsud"
-      type="button"
-    >Upgrade to pro</a>
-  </div>
+
 </template>
 <script>
 import Icon from "@/components/Icon.vue";

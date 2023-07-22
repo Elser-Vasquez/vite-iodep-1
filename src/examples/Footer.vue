@@ -8,15 +8,14 @@
             :class="$store.state.isRTL ? 'text-lg-end' : 'text-lg-start'"
           >
             ©
-            {{ new Date().getFullYear() }}, made with
+            {{ new Date().getFullYear() }},
             <i class="fa fa-heart"></i> by
             <a
-              href="https://www.creative-tim.com"
+              href="https://iodep.com"
               class="font-weight-bold"
               target="_blank"
-              >Creative Tim</a
+              >iodepCompany</a
             >
-            for a better web.
           </div>
         </div>
         <div class="col-lg-6">
@@ -25,10 +24,10 @@
           >
             <li class="nav-item">
               <a
-                href="https://www.creative-tim.com"
+                href="https://iodep.com"
                 class="nav-link text-muted"
                 target="_blank"
-                >Creative Tim</a
+                >iodep Company</a
               >
             </li>
             <li class="nav-item">
@@ -47,14 +46,7 @@
                 >Blog</a
               >
             </li>
-            <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com/license"
-                class="nav-link pe-0 text-muted"
-                target="_blank"
-                >License</a
-              >
-            </li>
+  
           </ul>
         </div>
       </div>
